@@ -323,9 +323,9 @@ class Nsfw(Core):
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
     @commands.cooldown(1, 0.5, commands.BucketType.user)
-    @commands.command(aliases=["ponys"])
+    @commands.command(aliases=["ponys", "mlp", "ponies","ponut"])
     async def pony(self, ctx: commands.Context):
-        """Sends some nsfw MLP gifs or images from random subreddits."""
+        """Sends some nsfw My Little Pony gifs or images from subreddits."""
 
         await self._send_msg(ctx, _("pony"), sub.PONY)
 

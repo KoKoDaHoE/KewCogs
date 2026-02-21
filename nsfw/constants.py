@@ -234,6 +234,7 @@ PONY = [
     "MyLittlePonyNSFW",
     "ClopClop",
     "Ponut",
+    "mlp_after_dark",
     "FeralClopClop",
     "TrueClop",
     "ClopGifs",
@@ -293,6 +294,7 @@ RULE_34 = [
     "Rule34LoL",
     "Rule_34",
     "rule34",
+    "rule34cartoons,"
 ]
 SQUIRTS = ["squirting", "squirting_gifs", "wetspot", "grool"]
 THIGHS = [
