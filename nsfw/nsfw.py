@@ -323,6 +323,16 @@ class Nsfw(Core):
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
     @commands.cooldown(1, 0.5, commands.BucketType.user)
+    @commands.command(aliases=["pony"])
+    async def pony(self, ctx: commands.Context):
+        """Sends some nsfw MLP gifs or images from random subreddits."""
+
+        await self._send_msg(ctx, _("pony"), sub.PONY)
+
+
+    @commands.is_nsfw()
+    @commands.bot_has_permissions(embed_links=True)
+    @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["pgif", "prongif"])
     async def porngif(self, ctx: commands.Context):
         """Sends some porn gifs from Nekobot API."""

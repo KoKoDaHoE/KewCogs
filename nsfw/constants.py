@@ -230,6 +230,14 @@ ORAL = [
     "cunnilingus",
     "deepthroat",
 ]
+PONY = [
+    "MyLittlePonyNSFW",
+    "ClopClop",
+    "Ponut",
+    "FeralClopClop",
+    "TrueClop",
+    "ClopGifs",
+    ]
 PUBLIC = [
     "ChangingRooms",
     "Flashing",
